@@ -1,13 +1,10 @@
-import { useState } from 'react'
-import Login from './pages/login/login'
-import Register from './pages/register/register'
+import { RouterProvider } from "react-router-dom"
+import { router } from "./router"
 
 function App() {
-
   return (
     <>
-      {/* <Login /> */}
-      <Register />
+      <RouterProvider router={router} />
     </>
   )
 }

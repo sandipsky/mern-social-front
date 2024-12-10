@@ -1,5 +1,5 @@
 // import { useContext } from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import { AuthContext } from "../../context/authContext";
 import "./login.scss";
 
@@ -21,9 +21,9 @@ const Login = () => {
             consequatur.
           </p>
           <span>Don't you have an account?</span>
-          {/* <Link to="/register">
+          <Link to="/register">
             <button>Register</button>
-          </Link> */}
+          </Link>
         </div>
         <div className="right">
           <h1>Login</h1>
